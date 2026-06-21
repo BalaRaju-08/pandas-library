@@ -1,100 +1,165 @@
-Pandas Student Marks Dataset Practice Questions
-Dataset Columns
-Id
-Name
-Gender
-Age
-Section
-Science
-English
-History
-Maths
-Beginner Level
-1. Display the first 5 rows.
-2. Display the last 10 rows.
-3. Find the number of rows and columns.
-4. Display all column names.
-5. Display data types of all columns.
-6. Find total students.
-Filtering Questions
-7. Display all Female students.
-8. Display all Male students.
-9. Find students from Section A.
-10. Find students whose age is 15.
-11. Find students who scored more than 80 in Maths.
-12. Find students who scored less than 40 in English.
-13. Find Female students from Section B.
-14. Find students scoring above 90 in Science.
-Aggregation Questions
-15. Find average Maths marks.
-16. Find maximum Science marks.
-17. Find minimum English marks.
-18. Find total History marks of all students.
-19. Find average marks in each subject.
-20. Find overall highest Maths mark.
-GroupBy Questions
-21. Find average Maths marks by Gender.
-22. Find maximum Science marks by Section.
-23. Find minimum English marks by Section.
-24. Find total History marks by Gender.
-25. Find average age by Gender.
-26. Find average marks of all subjects grouped by Section.
-27. Find count of students in each Section.
-28. Find count of Male and Female students.
-29. Find highest Maths score in each Section.
-30. Find lowest Science score in each Section.
-Sorting Questions
-31. Sort students by Maths marks descending.
-32. Sort students by English marks ascending.
-33. Display top 5 Maths scorers.
-34. Display bottom 5 Science scorers.
-Feature Engineering
-35. Create a new column Total.
-36. Create a new column Average.
-Topper Analysis
-37. Find the class topper.
-38. Find the student with highest Maths marks.
-39. Find the student with highest Total marks.
-40. Find students whose Total > 300.
-41. Find students whose Average > 75.
-42. Find topper from each Section.
-43. Find topper among Female students.
-44. Find topper among Male students.
-45. Find section-wise average Total marks.
-Interview Questions
-46. Which section has the highest average Maths marks?
-47. Which gender has the higher average Science marks?
-48. Find students who scored above average in Maths.
-49. Find students who scored below average in English.
-50. Find the top 3 students based on Total marks.
-Advanced Challenges
-51. Find the topper among Female students in Section B.
-52. Find the topper among Male students in Section A.
-53. Find the top 3 Female students by Total marks.
-54. Find the top 3 Male students by Total marks.
-55. Find students who scored above 90 in at least 3 subjects.
-56. Find students whose Maths marks are greater than their English marks.
-57. Find the section with the highest average Total marks.
-58. Find the gender with the highest average Total marks.
-59. Rank students based on Total marks.
-60. Generate a complete report card using Pandas.
-Skills Covered
-Data Loading
-Data Exploration
-Filtering
-Aggregation
-GroupBy
-Sorting
-Feature Engineering
-Statistical Analysis
-Ranking
-Data Reporting
-Technologies
-Python
-Pandas
-NumPy
-Jupyter Notebook
-Author
+# Pandas Learning Journey
 
-Dusari Balaraju
-B.Tech (AIML) | Data Analytics & Machine Learning Enthusiast
+## Overview
+
+This repository contains my learning and practice of the Pandas library in Python. Pandas is one of the most widely used libraries for data analysis, data manipulation, and data preprocessing.
+
+Through this repository, I explored various Pandas concepts that are commonly used in Data Analysis, Data Science, Machine Learning, and Python development.
+
+---
+
+## Topics Covered
+
+### 1. Introduction to Pandas
+
+* What is Pandas?
+* Installing Pandas
+* Importing Pandas
+* Understanding Series and DataFrames
+
+### 2. Creating DataFrames
+
+* Creating DataFrames from dictionaries
+* Creating DataFrames from lists
+* Creating DataFrames from CSV files
+
+### 3. Data Exploration
+
+* `head()`
+* `tail()`
+* `shape`
+* `columns`
+* `dtypes`
+* `info()`
+* `describe()`
+
+### 4. Data Selection and Indexing
+
+* Selecting single columns
+* Selecting multiple columns
+* `loc[]`
+* `iloc[]`
+* Row and column slicing
+
+### 5. Data Filtering
+
+* Conditional filtering
+* Multiple conditions using `&` and `|`
+* Filtering numeric and categorical data
+
+### 6. Data Cleaning
+
+* Detecting missing values
+* `isnull()`
+* `notnull()`
+* `fillna()`
+* `dropna()`
+* Handling duplicates using `drop_duplicates()`
+
+### 7. Data Transformation
+
+* Creating new columns
+* Updating column values
+* Renaming columns
+* Applying functions using `apply()`
+
+### 8. Sorting Data
+
+* `sort_values()`
+* Ascending sorting
+* Descending sorting
+* Multi-column sorting
+
+### 9. GroupBy Operations
+
+* Grouping data
+* `sum()`
+* `mean()`
+* `count()`
+* `max()`
+* `min()`
+* Multiple aggregations using `agg()`
+
+### 10. Merging and Joining Data
+
+* Inner Join
+* Left Join
+* Right Join
+* Outer Join
+* `merge()`
+* `join()`
+* `concat()`
+
+### 11. Statistical Operations
+
+* Mean
+* Median
+* Mode
+* Standard Deviation
+* Variance
+* Correlation
+
+### 12. Working with CSV Files
+
+* Reading CSV files
+* Writing CSV files
+* Exporting processed datasets
+
+
+
+
+
+## Key Pandas Functions Practiced
+
+```python
+pd.read_csv()
+pd.DataFrame()
+df.head()
+df.tail()
+df.info()
+df.describe()
+df.loc[]
+df.iloc[]
+df.groupby()
+df.merge()
+pd.concat()
+df.sort_values()
+df.drop()
+df.fillna()
+df.dropna()
+df.isnull()
+df.value_counts()
+df.unique()
+df.to_csv()
+
+# Skills Gained
+
+* Data Cleaning
+* Data Manipulation
+* Data Transformation
+* Data Analysis
+* Data Aggregation
+* Data Merging
+* Exploratory Data Analysis (EDA)
+* Business Data Interpretation
+
+---
+
+# Technologies Used
+
+* Python
+* Pandas
+
+
+
+** Learning Outcome
+
+By completing these exercises and examples, I developed a strong foundation in Pandas and learned how to efficiently handle, clean, analyze, and transform datasets for real-world data analysis tasks.
+
+---
+
+Balaraju Dusari
+
+B.Tech – Artificial Intelligence and Machine Learning (AIML)
+
+Aspiring Data Analyst | Python Developer | AI & ML Enthusiast
